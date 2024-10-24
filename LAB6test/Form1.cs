@@ -169,5 +169,17 @@ namespace LAB6test
             var book = db.SACHes.Where(b => b.MaSach.ToLower().Contains(search) || b.TenSach.ToLower().Contains(search)|| b.NamXB.ToString().Contains(search)).ToList();
             FillDataGrid(book);
         }
+
+        private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void thốngKêTheoNămToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Report report = new Report();
+            report.ShowDialog();
+            this.Hide();
+        }
     }
 }

@@ -268,12 +268,15 @@
             this.thốngKêToolStripMenuItem.Name = "thốngKêToolStripMenuItem";
             this.thốngKêToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
             this.thốngKêToolStripMenuItem.Text = "Thống kê";
+            this.thốngKêToolStripMenuItem.Click += new System.EventHandler(this.thốngKêToolStripMenuItem_Click);
             // 
             // thốngKêTheoNămToolStripMenuItem
             // 
             this.thốngKêTheoNămToolStripMenuItem.Name = "thốngKêTheoNămToolStripMenuItem";
-            this.thốngKêTheoNămToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.thốngKêTheoNămToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
+            this.thốngKêTheoNămToolStripMenuItem.Size = new System.Drawing.Size(270, 26);
             this.thốngKêTheoNămToolStripMenuItem.Text = "Thống kê theo năm";
+            this.thốngKêTheoNămToolStripMenuItem.Click += new System.EventHandler(this.thốngKêTheoNămToolStripMenuItem_Click);
             // 
             // Form1
             // 
